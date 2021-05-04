@@ -205,4 +205,4 @@ class Objective():
             for elem in range(1, self.NP):
                 tmp_G = block_diag(g, np.identity(self.l_twb[elem].cols))
                 g = tmp_G
-        G = block_diag(g, self.cols_sto)
+        G = block_diag(g, self.cols_sto) # UPDATE WITH NEW CONSTRAINTS
