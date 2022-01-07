@@ -18,7 +18,7 @@ setup(
         license='GPLv3',
         scripts=['bin/atom-json','bin/ccs_fit'],
         install_requires=[
-            "cvxopt==1.2.4",
+            "cvxopt==1.2.7",
             "matplotlib==3.0.3",
             "numpy>=1.18.1",
             "pandas==0.24.2",
